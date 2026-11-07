@@ -1,0 +1,23 @@
+{
+  "ipaddresshider.button.hide": "Diese IP-Adresse verdecken",
+  "ipaddresshider.button.show": "Diese IP-Adresse zeigen",
+  "ipaddresshider.button.locked_by_streamer_mode": "Zum Anzeigen dieser IP musst du den Streamer-Modus ausschalten",
+  "ipaddresshider.settings.title": "IP Address Hider",
+  "ipaddresshider.option.streamer_mode": "Streamer-Modus",
+  "ipaddresshider.option.streamer_mode.desc": "Verdeckt jeden Servernamen und jede Adresse, egal was einzeln eingestellt ist. Die einzelnen Schloesser bleiben gemerkt und gelten wieder, sobald du das hier ausschaltest.",
+  "ipaddresshider.option.twitch": "Twitch-Konto verbinden",
+  "ipaddresshider.option.twitch.desc": "Damit \"Nur während Live\" weiß, wann dein Kanal live ist. Fragt Twitch etwa einmal pro Minute - sonst nichts, keine Chat- oder Kanalrechte.",
+  "ipaddresshider.button.name.hide": "Diesen Servernamen verdecken",
+  "ipaddresshider.button.name.show": "Diesen Servernamen zeigen",
+  "ipaddresshider.twitch.requesting": "Verbinde mit Twitch...",
+  "ipaddresshider.twitch.enter_code": "Oeffne twitch.tv/activate und gib diesen Code ein:",
+  "ipaddresshider.twitch.open": "twitch.tv/activate oeffnen",
+  "ipaddresshider.twitch.copy": "Code kopieren",
+  "ipaddresshider.twitch.connected_live": "Verbunden als %s - LIVE",
+  "ipaddresshider.twitch.connected_offline": "Verbunden als %s - offline",
+  "ipaddresshider.twitch.disconnect": "Twitch trennen",
+  "ipaddresshider.twitch.failed": "Twitch-Verbindung fehlgeschlagen - nochmal versuchen",
+  "ipaddresshider.option.only_live": "Nur während Live",
+  "ipaddresshider.option.only_live.desc": "Der Streamer-Modus wirkt nur, solange dein Twitch-Kanal live ist. Aus: Er wirkt immer, wenn er an ist - dafür bei Aufnahmen, YouTube oder Discord-Bildschirmübertragung, die Twitch nicht sieht.",
+  "ipaddresshider.option.only_live.needs_twitch": "Verbinde zuerst dein Twitch-Konto - ohne weiß die Mod nicht, wann du live bist."
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lumitier.ipaddresshider.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AddServerScreenMixin",
+    "DirectConnectScreenMixin",
+    "ServerEntryMixin",
+    "TextFieldWidgetAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

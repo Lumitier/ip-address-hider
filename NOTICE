@@ -1,0 +1,37 @@
+IP Address Hider
+Copyright 2026 Lukas
+
+This product includes software developed as part of the Fabric modding
+ecosystem for Minecraft.
+
+--------------------------------------------------------------------------
+What this mod does with your data
+--------------------------------------------------------------------------
+
+Hiding addresses and names changes only what is drawn on screen. The
+address Minecraft connects to and the name it stores are never modified.
+
+config/ipaddresshider.json holds the servers whose address or name you
+have chosen to hide, and your Streamer Mode setting. It stays on your
+computer.
+
+--------------------------------------------------------------------------
+Twitch (optional, off until you connect)
+--------------------------------------------------------------------------
+
+Unless you press "Connect Twitch account", this mod makes no network
+requests at all.
+
+If you connect, it contacts Twitch (id.twitch.tv and api.twitch.tv) to:
+
+  - sign you in with a short code you confirm on twitch.tv/activate,
+  - ask about once a minute whether your channel is live.
+
+It requests no permissions: no chat, no channel management, no e-mail.
+The login is stored in config/ipaddresshider-twitch.json, separately from
+the normal config so the normal one stays safe to share. "Disconnect
+Twitch" revokes the login at Twitch and deletes that file.
+
+After disconnecting, the app may still be listed under Twitch Settings >
+Connections. The login it held is already invalid at that point. To
+remove the entry as well, click "Disconnect" there.

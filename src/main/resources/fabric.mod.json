@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ipaddresshider",
+  "version": "${version}",
+  "name": "IP Address Hider",
+  "description": "Hides a server's address behind asterisks so it stays out of screenshots and streams. A lock button next to the address field switches it per server.",
+  "authors": [
+    "Lumitier"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/ip-address-hider",
+    "sources": "https://github.com/Lumitier/ip-address-hider",
+    "issues": "https://github.com/Lumitier/ip-address-hider/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/ipaddresshider/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lumitier.ipaddresshider.client.IpAddressHiderClient"
+    ],
+    "modmenu": [
+      "com.lumitier.ipaddresshider.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "ipaddresshider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

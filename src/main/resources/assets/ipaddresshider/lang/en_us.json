@@ -1,0 +1,23 @@
+{
+  "ipaddresshider.button.hide": "Hide this IP address",
+  "ipaddresshider.button.show": "Show this IP address",
+  "ipaddresshider.button.locked_by_streamer_mode": "To show this IP you have to disable Streamer Mode",
+  "ipaddresshider.settings.title": "IP Address Hider",
+  "ipaddresshider.option.streamer_mode": "Streamer Mode",
+  "ipaddresshider.option.streamer_mode.desc": "Hides every server name and address, whatever each server is set to. Individual locks are remembered and come back when you turn this off.",
+  "ipaddresshider.option.twitch": "Connect Twitch account",
+  "ipaddresshider.option.twitch.desc": "Lets \"Only while live\" know when your channel is live. Asks Twitch about once a minute - nothing else, no chat or channel permissions.",
+  "ipaddresshider.button.name.hide": "Hide this server name",
+  "ipaddresshider.button.name.show": "Show this server name",
+  "ipaddresshider.twitch.requesting": "Contacting Twitch...",
+  "ipaddresshider.twitch.enter_code": "Go to twitch.tv/activate and enter this code:",
+  "ipaddresshider.twitch.open": "Open twitch.tv/activate",
+  "ipaddresshider.twitch.copy": "Copy code",
+  "ipaddresshider.twitch.connected_live": "Connected as %s - LIVE",
+  "ipaddresshider.twitch.connected_offline": "Connected as %s - offline",
+  "ipaddresshider.twitch.disconnect": "Disconnect Twitch",
+  "ipaddresshider.twitch.failed": "Twitch connection failed - try again",
+  "ipaddresshider.option.only_live": "Only while live",
+  "ipaddresshider.option.only_live.desc": "Streamer Mode only takes effect while your Twitch channel is live. Off: it works whenever Streamer Mode is on - use that for recordings, YouTube or Discord screen sharing, which Twitch cannot see.",
+  "ipaddresshider.option.only_live.needs_twitch": "Connect your Twitch account first - without it this cannot tell when you are live."
+}
