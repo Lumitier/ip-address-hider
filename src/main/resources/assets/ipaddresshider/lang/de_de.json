@@ -19,5 +19,8 @@
   "ipaddresshider.twitch.failed": "Twitch-Verbindung fehlgeschlagen - nochmal versuchen",
   "ipaddresshider.option.only_live": "Nur während Live",
   "ipaddresshider.option.only_live.desc": "Der Streamer-Modus wirkt nur, solange dein Twitch-Kanal live ist. Aus: Er wirkt immer, wenn er an ist - dafür bei Aufnahmen, YouTube oder Discord-Bildschirmübertragung, die Twitch nicht sieht.",
-  "ipaddresshider.option.only_live.needs_twitch": "Verbinde zuerst dein Twitch-Konto - ohne weiß die Mod nicht, wann du live bist."
+  "ipaddresshider.option.only_live.needs_twitch": "Verbinde zuerst dein Twitch-Konto - ohne weiß die Mod nicht, wann du live bist.",
+  "ipaddresshider.group.streamer": "Streamer-Modus",
+  "ipaddresshider.group.twitch": "Twitch",
+  "ipaddresshider.twitch.not_connected": "Nicht verbunden"
 }

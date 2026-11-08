@@ -19,5 +19,8 @@
   "ipaddresshider.twitch.failed": "Twitch connection failed - try again",
   "ipaddresshider.option.only_live": "Only while live",
   "ipaddresshider.option.only_live.desc": "Streamer Mode only takes effect while your Twitch channel is live. Off: it works whenever Streamer Mode is on - use that for recordings, YouTube or Discord screen sharing, which Twitch cannot see.",
-  "ipaddresshider.option.only_live.needs_twitch": "Connect your Twitch account first - without it this cannot tell when you are live."
+  "ipaddresshider.option.only_live.needs_twitch": "Connect your Twitch account first - without it this cannot tell when you are live.",
+  "ipaddresshider.group.streamer": "Streamer Mode",
+  "ipaddresshider.group.twitch": "Twitch",
+  "ipaddresshider.twitch.not_connected": "Not connected"
 }

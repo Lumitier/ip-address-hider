@@ -300,10 +300,12 @@ public final class TwitchLink {
 				res = getStreams(s);
 			}
 			if (res.statusCode() == 401) {
-				// Token tot und nicht erneuerbar. Live-Zustand stehen
-				// lassen waere falsch - aber der Nutzer muss neu verbinden.
-				fail("Twitch login expired - please connect again.", null);
-				stopLiveChecks();
+				// Token tot und nicht erneuerbar. Das ist kein Fehler der
+				// Anmeldung, sondern einfach: nicht mehr verbunden. Also
+				// "nicht verbunden" anzeigen statt "fehlgeschlagen", und den
+				// toten Token loeschen - sonst stuende bei jedem Start
+				// wieder dieselbe Fehlermeldung da.
+				expired();
 				return;
 			}
 			if (res.statusCode() != 200) {
@@ -370,6 +372,20 @@ public final class TwitchLink {
 	// ------------------------------------------------------------------
 	// Hilfen
 	// ------------------------------------------------------------------
+
+	/** Login abgelaufen oder widerrufen: zurueck auf "nicht verbunden". */
+	private static synchronized void expired() {
+		IpAddressHider.LOGGER.info("[IP Address Hider] Twitch login expired or was revoked - "
+			+ "now disconnected. Connect again to use \"Only while live\".");
+		stopLiveChecks();
+		stored = null;
+		live = false;
+		login = null;
+		userCode = null;
+		state = State.DISCONNECTED;
+		writeStored(null);
+		changed();
+	}
 
 	private static void fail(String message, Exception e) {
 		if (e == null) {

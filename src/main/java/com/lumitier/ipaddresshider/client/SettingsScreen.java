@@ -91,11 +91,11 @@ public final class SettingsScreen extends Screen {
 
 		switch (TwitchLink.state()) {
 			case DISCONNECTED, FAILED -> {
-				if (TwitchLink.state() == TwitchLink.State.FAILED) {
-					this.statusLine = Text.translatable("ipaddresshider.twitch.failed");
-					this.statusY = y;
-					y += 12;
-				}
+				this.statusLine = Text.translatable(TwitchLink.state() == TwitchLink.State.FAILED
+					? "ipaddresshider.twitch.failed"
+					: "ipaddresshider.twitch.not_connected");
+				this.statusY = y;
+				y += 12;
 				addDrawableChild(ButtonWidget.builder(
 						Text.translatable("ipaddresshider.option.twitch"),
 						b -> TwitchLink.connect())

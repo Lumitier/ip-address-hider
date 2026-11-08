@@ -33,6 +33,7 @@
     "fabric-api": "*"
   },
   "suggests": {
-    "modmenu": "*"
+    "modmenu": "*",
+    "lumilib": ">=1.3.2"
   }
 }
