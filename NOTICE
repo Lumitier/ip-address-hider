@@ -35,3 +35,19 @@ Twitch" revokes the login at Twitch and deletes that file.
 After disconnecting, the app may still be listed under Twitch Settings >
 Connections. The login it held is already invalid at that point. To
 remove the entry as well, click "Disconnect" there.
+
+--------------------------------------------------------------------------
+Icon
+--------------------------------------------------------------------------
+
+  Lucide
+      Copyright (c) 2026 Lucide Icons and Contributors
+      https://lucide.dev
+      Licensed under the ISC License.
+
+  The mod icon (icon.png) is the Lucide icon "lock-keyhole", placed on a
+  rounded background. The outline itself is unchanged. The full licence
+  text is in LICENSE-Lucide.txt.
+
+  Parts of Lucide derive from the Feather project,
+  Copyright (c) 2013-2023 Cole Bemis, MIT licensed.
